@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 	
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="../css/style.css">
 		
         <title>Add Product</title>
     </head>
@@ -40,7 +40,34 @@
 				</div>
 			</div>
         </header>
-		
+		<form id="addproduct">
+            <label class="label">ID: </label>
+            <br><input type="text" id="product_id">
+            <hr>
+
+            <label class="label">Name: </label>
+            <br><input type="text" id="product_name">
+            <hr>
+
+            <label class="label">Price: </label>
+            <br><input type="number" id="product_price">
+            <hr>
+
+            <label class="label">Category: </label>
+            <br><input type="number" id="product_category">
+            <hr>
+
+            <label class="label">Description: </label>
+            <br><input type="text" id="product_des">
+            <hr>
+
+            <label class="label">Image: </label>
+            <br><input type="text" id="product_img">
+            <hr>
+
+            <br><input type="submit" class="addbtn" value="ADD">
+
+        </form>
 		
         <script src="js/jquery-1.11.3.js"></script>
 		<script src="../js/index.js"></script>	
