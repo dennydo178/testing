@@ -1,10 +1,10 @@
 <?php
 // Define PostgreSQL database server connect parameters.
-define('PG_HOST', 'ec2-54-205-26-79.compute-1.amazonaws.com');
+define('PG_HOST', 'ec2-100-25-231-126.compute-1.amazonaws.com');
 define('PG_PORT', 5432);
-define('PG_DATABASE', 'd65ofmmfvhc7lv');
-define('PG_USER', 'eofumljuhvpscl');
-define('PG_PASSWORD', 'a0802a932206f7fb68240da0d77c6193ca0df70b60a1fb8b905af881e95e1322');
+define('PG_DATABASE', 'd1lm3ujhf1056o');
+define('PG_USER', 'cbrfuqnvzzklyj');
+define('PG_PASSWORD', '7c531185da73414f5e7ce5176fef7cf1d29161dfdf8a5451723d7e65b046ad27');
 define('ERROR_ON_CONNECT_FAILED', 'Connection failed!');
 
 // Merge connect string and connect db server with default parameters.
